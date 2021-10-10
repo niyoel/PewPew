@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+body header img {
+    display: none;
+}
+
+body main {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+body main #game {
+    margin: 0 auto;
+    background-color: white;
+}
+
+body footer {
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+body footer a#replay {
+    display: none;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: blue solid;
+}
+
+body footer a#play {
+    display: inline;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 30%;
+}
+
+canvas {
+    background-image: url(./asset/img/sea.png);
+}
